@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://img.shields.io/github/last-commit/insidious-security/easyssh.svg?style=for-the-badge">
+  <img src="https://img.shields.io/github/license/insidious-security/easyssh?style=for-the-badge">
+</p>
+
 # Torpod
 To use this container you'll need to have docker installed on your system. The connecting client needs to have the following packages:
 - tor
