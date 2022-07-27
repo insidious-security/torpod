@@ -10,7 +10,7 @@ To use this container you'll need to have [Docker](https://www.docker.com/) inst
 - torify
 - torsocks
 
-Install the packages:
+Install the required packages:
 ```bash
 # Debian based systems:
 $ sudo apt install tor torify --yes
