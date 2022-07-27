@@ -4,10 +4,22 @@
 </p>
 
 # Torpod
-To use this container you'll need to have docker installed on your system. The connecting client needs to have the following packages:
+To use this container you'll need to have [Docker](https://www.docker.com/) installed on your system. The connecting client needs to have the following packages:
 - tor
 - torify
 - torsocks
+
+Install the packages:
+```bash
+# Debian based systems:
+$ sudo apt install tor torify --yes
+
+# Arch based systems:
+$ sudo pacman -S tor torify --noconfirm
+
+# Redhad
+$ dns install tor torify
+```
 
 ## The repository:
 This Dockerfile sets up a secure docker container, creates a single username and is anonymously accessible from the tor network.
