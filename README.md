@@ -19,7 +19,7 @@ $ sudo apt install tor torify --yes
 $ sudo pacman -S tor torify --noconfirm
 
 # Redhad
-$ dns install tor torify
+$ dnf install tor torify
 ```
 
 ## Usage:
