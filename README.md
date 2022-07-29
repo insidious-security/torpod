@@ -30,6 +30,9 @@ $ git clone https://github.com/insidious-security/torpod.git
 # Change to torpod directory:
 $ cd torpod/
 
+# Change the username and password in the Dockerfile.
+line 8: RUN echo "username:changeme" | chpasswd
+
 # Build and run the container:
 $ docker build -t torpod:latest .
 $ docker run --name torpod -dit torpod:latest
