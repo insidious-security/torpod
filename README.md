@@ -18,8 +18,9 @@ $ sudo apt install tor torsocks --yes
 # Arch based systems:
 $ sudo pacman -S tor torsocks --noconfirm
 
-# Redhad
-$ dnf install tor torsocks
+# Redhad / Centos
+$ dnf install epel-release
+$ dnf install tor 
 ```
 
 ## Usage:
