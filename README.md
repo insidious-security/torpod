@@ -7,19 +7,19 @@
 This Dockerfile sets up a secure docker container, creates a single username and is anonymously accessible from the tor network.
 To use this container you'll need to have [Docker](https://www.docker.com/) installed on your system. The connecting client needs to have the following packages:
 - tor
-- torify
-- torsocks
+- torify (included in tor packages)
+- torsocks 
 
 Install the required packages:
 ```bash
 # Debian based systems:
-$ sudo apt install tor torify --yes
+$ sudo apt install tor torsocks --yes
 
 # Arch based systems:
-$ sudo pacman -S tor torify --noconfirm
+$ sudo pacman -S tor torsocks --noconfirm
 
 # Redhad
-$ dnf install tor torify
+$ dnf install tor torsocks
 ```
 
 ## Usage:
